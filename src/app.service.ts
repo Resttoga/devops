@@ -17,6 +17,7 @@ export class AppService {
       nombre: createPersonaDto.nombre,
       nacimiento: new Date(createPersonaDto.nacimiento), 
       ciudad: createPersonaDto.ciudad,
+      gustos: createPersonaDto.gustos,
     };
 
     this.personas.push(nuevaPersona);

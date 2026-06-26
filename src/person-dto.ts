@@ -3,4 +3,5 @@ export class CreatePersonaDto {
   nombre: string;
   nacimiento: string | Date;
   ciudad: string;
+  gustos: string[];
 }

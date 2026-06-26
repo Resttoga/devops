@@ -18,6 +18,7 @@ export class AppController {
       nombre: createPersonaDto.nombre,
       nacimiento: createPersonaDto.nacimiento,
       ciudad: createPersonaDto.ciudad,
+      gustos: createPersonaDto.gustos,
     };
 
     this.appService.addPerson(newPerson);
